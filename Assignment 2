@@ -1,0 +1,30 @@
+<!-- 
+given padding,margin and border radius to paragraph tag and id="bg" the over all code is given below
+-->
+const bG= document.getElementById("bg"); //script.js file
+bG.style.backgroundColor = "green";
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Assignment</title>
+  <style>
+    p {
+    	padding: 10px;
+    	margin: 30px;
+    	border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <p id="bg">Set the background color of a paragraph</p>
+  <!--or <script src="script.js"></script> -->
+  <script>
+    const bG= document.getElementById("bg");
+    bG.style.backgroundColor = "green";
+  </script>
+</body>
+</html>
